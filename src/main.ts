@@ -1,5 +1,10 @@
 import './style.css'
-import viteLogo from '/vite.svg';
+//Es necesario importar los otros archivos para poder que se ejecuten. Main es el punto de entrada
+// import './topics/1-basic-types'
+// import './topics/2-object-interface'
+// import './topics/3-functions';
+// import './topics/4-homework-types'
+import './topics/5-basic-destructuring'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   hola Mundo
